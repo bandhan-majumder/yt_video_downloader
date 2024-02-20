@@ -122,15 +122,15 @@ if click:
         # # Download the chosen stream
         # stream.download()  # by default the downloads will be saved in the current folder
 
-         try:
-           # Download the video to the specified folder
-           stream.download(output_path=folder_path)
+        try:
+          # Download the video to the specified folder
+          stream.download(output_path=folder_path)
          
-           # show this message after successfully downloading
-           st.success("Video downloaded successfully!")
-         except:
-            stream.download()
-            st.success("Video downloaded successfully!")
+          # show this message after successfully downloading
+          st.success("Video downloaded successfully!")
+        except:
+          stream.download()
+          st.success("Video downloaded successfully!")
 
 # Set up a container to hold the text at the bottom
 st.markdown(
