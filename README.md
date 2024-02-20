@@ -42,9 +42,15 @@
 
 3. Enter the YouTube video URL in the provided text input.
 
-4. Click the "Download" button to initiate the download process.
+4. Make sure you have given proper permissions. If not, then give the permissions to the /home/Downloads directory. Or adjust it according to your path.
 
-5. Wait for the download to complete. Upon completion, a success message will be displayed.
+   ```bash
+    sudo chmod 777 /home/Downloads
+    ```
+   
+5. Click the "Download" button to initiate the download process.
+
+6. Wait for the download to complete. Upon completion, a success message will be displayed.
 
 ## Contributing
 Contributions are welcome! Here's how you can contribute:
