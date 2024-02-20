@@ -122,9 +122,20 @@ if click:
         # # Download the chosen stream
         # stream.download()  # by default the downloads will be saved in the current folder
 
-        stream.download()
-        st.success("Video downloaded successfully!")
+        # Specify the folder where you want to save the video
+        folder_path = '/home/bandhan/Downloads'
 
+        try : 
+           # Download the video to the specified folder
+           stream.download(output_path=folder_path)
+            
+        except:
+            # Downloading in the default folder 
+            stream.download()
+            
+        # show this message after successfully downloading
+           st.success("Video downloaded successfully!")
+            
 # Set up a container to hold the text at the bottom
 st.markdown(
     """
