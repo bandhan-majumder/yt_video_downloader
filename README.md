@@ -1,6 +1,8 @@
-# Download YouTube videos for free using this Streamlit web application!
+# Download YouTube videos for free using this Streamlit web application 👾 !
 
-![Screenshot from 2024-02-21 01-37-03](https://github.com/bandhan-majumder/yt_video_downloader/assets/133476557/318836a5-77f1-4f0d-8736-bee6ebff179d)
+![Screenshot from 2024-02-21 01-58-58](https://github.com/bandhan-majumder/yt_video_downloader/assets/133476557/ecc7eb78-49a8-4b2a-ad45-6312607748d3)
+
+
 # go to the site : https://ytvideodownloader-bm.streamlit.app/
 
 ## Table of Contents
