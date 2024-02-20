@@ -134,7 +134,7 @@ if click:
             stream.download()
             
         # show this message after successfully downloading
-           st.success("Video downloaded successfully!")
+        st.success("Video downloaded successfully!")
             
 # Set up a container to hold the text at the bottom
 st.markdown(
